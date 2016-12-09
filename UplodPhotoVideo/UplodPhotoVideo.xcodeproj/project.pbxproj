@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B60CD8741DFA9B62007211D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B60CD8731DFA9B62007211D8 /* main.m */; };
+		B60CD8771DFA9B62007211D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B60CD8761DFA9B62007211D8 /* AppDelegate.m */; };
+		B60CD87A1DFA9B62007211D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60CD8791DFA9B62007211D8 /* ViewController.m */; };
+		B60CD87D1DFA9B62007211D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60CD87B1DFA9B62007211D8 /* Main.storyboard */; };
+		B60CD87F1DFA9B62007211D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60CD87E1DFA9B62007211D8 /* Assets.xcassets */; };
+		B60CD8821DFA9B62007211D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60CD8801DFA9B62007211D8 /* LaunchScreen.storyboard */; };
+		B60CD8971DFA9C2D007211D8 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B60CD88B1DFA9C2D007211D8 /* AFHTTPSessionManager.m */; };
+		B60CD8981DFA9C2D007211D8 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B60CD88E1DFA9C2D007211D8 /* AFNetworkReachabilityManager.m */; };
+		B60CD8991DFA9C2D007211D8 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = B60CD8901DFA9C2D007211D8 /* AFSecurityPolicy.m */; };
+		B60CD89A1DFA9C2D007211D8 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B60CD8921DFA9C2D007211D8 /* AFURLRequestSerialization.m */; };
+		B60CD89B1DFA9C2D007211D8 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B60CD8941DFA9C2D007211D8 /* AFURLResponseSerialization.m */; };
+		B60CD89C1DFA9C2D007211D8 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B60CD8961DFA9C2D007211D8 /* AFURLSessionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B60CD86F1DFA9B62007211D8 /* UplodPhotoVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UplodPhotoVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60CD8731DFA9B62007211D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B60CD8751DFA9B62007211D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B60CD8761DFA9B62007211D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B60CD8781DFA9B62007211D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B60CD8791DFA9B62007211D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B60CD87C1DFA9B62007211D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B60CD87E1DFA9B62007211D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B60CD8811DFA9B62007211D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B60CD8831DFA9B62007211D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60CD88A1DFA9C2D007211D8 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		B60CD88B1DFA9C2D007211D8 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		B60CD88C1DFA9C2D007211D8 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		B60CD88D1DFA9C2D007211D8 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		B60CD88E1DFA9C2D007211D8 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		B60CD88F1DFA9C2D007211D8 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		B60CD8901DFA9C2D007211D8 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		B60CD8911DFA9C2D007211D8 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		B60CD8921DFA9C2D007211D8 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		B60CD8931DFA9C2D007211D8 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		B60CD8941DFA9C2D007211D8 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		B60CD8951DFA9C2D007211D8 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		B60CD8961DFA9C2D007211D8 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B60CD86C1DFA9B62007211D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B60CD8661DFA9B62007211D8 = {
+			isa = PBXGroup;
+			children = (
+				B60CD8711DFA9B62007211D8 /* UplodPhotoVideo */,
+				B60CD8701DFA9B62007211D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B60CD8701DFA9B62007211D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B60CD86F1DFA9B62007211D8 /* UplodPhotoVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B60CD8711DFA9B62007211D8 /* UplodPhotoVideo */ = {
+			isa = PBXGroup;
+			children = (
+				B60CD8891DFA9C2D007211D8 /* AFNetworking */,
+				B60CD8751DFA9B62007211D8 /* AppDelegate.h */,
+				B60CD8761DFA9B62007211D8 /* AppDelegate.m */,
+				B60CD8781DFA9B62007211D8 /* ViewController.h */,
+				B60CD8791DFA9B62007211D8 /* ViewController.m */,
+				B60CD87B1DFA9B62007211D8 /* Main.storyboard */,
+				B60CD87E1DFA9B62007211D8 /* Assets.xcassets */,
+				B60CD8801DFA9B62007211D8 /* LaunchScreen.storyboard */,
+				B60CD8831DFA9B62007211D8 /* Info.plist */,
+				B60CD8721DFA9B62007211D8 /* Supporting Files */,
+			);
+			path = UplodPhotoVideo;
+			sourceTree = "<group>";
+		};
+		B60CD8721DFA9B62007211D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B60CD8731DFA9B62007211D8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B60CD8891DFA9C2D007211D8 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				B60CD88A1DFA9C2D007211D8 /* AFHTTPSessionManager.h */,
+				B60CD88B1DFA9C2D007211D8 /* AFHTTPSessionManager.m */,
+				B60CD88C1DFA9C2D007211D8 /* AFNetworking.h */,
+				B60CD88D1DFA9C2D007211D8 /* AFNetworkReachabilityManager.h */,
+				B60CD88E1DFA9C2D007211D8 /* AFNetworkReachabilityManager.m */,
+				B60CD88F1DFA9C2D007211D8 /* AFSecurityPolicy.h */,
+				B60CD8901DFA9C2D007211D8 /* AFSecurityPolicy.m */,
+				B60CD8911DFA9C2D007211D8 /* AFURLRequestSerialization.h */,
+				B60CD8921DFA9C2D007211D8 /* AFURLRequestSerialization.m */,
+				B60CD8931DFA9C2D007211D8 /* AFURLResponseSerialization.h */,
+				B60CD8941DFA9C2D007211D8 /* AFURLResponseSerialization.m */,
+				B60CD8951DFA9C2D007211D8 /* AFURLSessionManager.h */,
+				B60CD8961DFA9C2D007211D8 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B60CD86E1DFA9B62007211D8 /* UplodPhotoVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60CD8861DFA9B62007211D8 /* Build configuration list for PBXNativeTarget "UplodPhotoVideo" */;
+			buildPhases = (
+				B60CD86B1DFA9B62007211D8 /* Sources */,
+				B60CD86C1DFA9B62007211D8 /* Frameworks */,
+				B60CD86D1DFA9B62007211D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UplodPhotoVideo;
+			productName = UplodPhotoVideo;
+			productReference = B60CD86F1DFA9B62007211D8 /* UplodPhotoVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B60CD8671DFA9B62007211D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = liyang;
+				TargetAttributes = {
+					B60CD86E1DFA9B62007211D8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6FWU53G3PX;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = B60CD86A1DFA9B62007211D8 /* Build configuration list for PBXProject "UplodPhotoVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B60CD8661DFA9B62007211D8;
+			productRefGroup = B60CD8701DFA9B62007211D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B60CD86E1DFA9B62007211D8 /* UplodPhotoVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B60CD86D1DFA9B62007211D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60CD8821DFA9B62007211D8 /* LaunchScreen.storyboard in Resources */,
+				B60CD87F1DFA9B62007211D8 /* Assets.xcassets in Resources */,
+				B60CD87D1DFA9B62007211D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B60CD86B1DFA9B62007211D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60CD89C1DFA9C2D007211D8 /* AFURLSessionManager.m in Sources */,
+				B60CD87A1DFA9B62007211D8 /* ViewController.m in Sources */,
+				B60CD8771DFA9B62007211D8 /* AppDelegate.m in Sources */,
+				B60CD8981DFA9C2D007211D8 /* AFNetworkReachabilityManager.m in Sources */,
+				B60CD8741DFA9B62007211D8 /* main.m in Sources */,
+				B60CD8991DFA9C2D007211D8 /* AFSecurityPolicy.m in Sources */,
+				B60CD89A1DFA9C2D007211D8 /* AFURLRequestSerialization.m in Sources */,
+				B60CD89B1DFA9C2D007211D8 /* AFURLResponseSerialization.m in Sources */,
+				B60CD8971DFA9C2D007211D8 /* AFHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B60CD87B1DFA9B62007211D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60CD87C1DFA9B62007211D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B60CD8801DFA9B62007211D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60CD8811DFA9B62007211D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B60CD8841DFA9B62007211D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B60CD8851DFA9B62007211D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B60CD8871DFA9B62007211D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6FWU53G3PX;
+				INFOPLIST_FILE = UplodPhotoVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.UplodPhotoVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f7ee026b-92db-4495-a68c-013e272e9109";
+				PROVISIONING_PROFILE_SPECIFIER = lyAppIDProfiles;
+			};
+			name = Debug;
+		};
+		B60CD8881DFA9B62007211D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6FWU53G3PX;
+				INFOPLIST_FILE = UplodPhotoVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.UplodPhotoVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f7ee026b-92db-4495-a68c-013e272e9109";
+				PROVISIONING_PROFILE_SPECIFIER = lyAppIDProfiles;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B60CD86A1DFA9B62007211D8 /* Build configuration list for PBXProject "UplodPhotoVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60CD8841DFA9B62007211D8 /* Debug */,
+				B60CD8851DFA9B62007211D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60CD8861DFA9B62007211D8 /* Build configuration list for PBXNativeTarget "UplodPhotoVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60CD8871DFA9B62007211D8 /* Debug */,
+				B60CD8881DFA9B62007211D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B60CD8671DFA9B62007211D8 /* Project object */;
+}
